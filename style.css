@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f5;
+    color: #333;
+  }
+  
+  /* Header Navigation */
+  header {
+    background-color: #00796b;
+    padding: 1rem;
+  }
+  
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Menu Section */
+  .food-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .food-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .food-item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+  }
+  
+  .food-item button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .food-item button:hover {
+    background-color: #f57c00;
+  }
+  
+  /* Cart Section */
+  #cart {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+  }
+  
+  /* Total Bill Bar */
+  .total-bill-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  
